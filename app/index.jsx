@@ -1,6 +1,6 @@
 import { Link, Redirect, router } from 'expo-router';
 import { StatusBar } from 'expo-status-bar';
-import { ScrollView, StyleSheet, Text, View } from 'react-native';
+import { Image, ScrollView, StyleSheet, Text, View } from 'react-native';
 import { SafeAreaView } from 'react-native-safe-area-context';
 import CustomButton from './components/CustomButton';
 
@@ -9,7 +9,9 @@ export default function App() {
     <SafeAreaView style={styles.container}>
       <ScrollView style={{ height: '100%' }}>
         <View style={{ width: '100%', justifyContent: 'center', minHeight: 400 }}>
-          {/* <Image/> */}
+          <Image
+            // source={} resizeMode='contain' width={''} height={''}
+          />
           <View>
             <Text style={{ color: 'white', fontSize: 30, fontFamily: 'sans-serif-medium', 
                           fontWeight: 'bold', marginTop: 20, textAlign: 'center' }}>
