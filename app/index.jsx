@@ -8,9 +8,10 @@ export default function App() {
   return (
     <SafeAreaView style={styles.container}>
       <ScrollView style={{ height: '100%' }}>
-        <View style={{ width: '100%', justifyContent: 'center', minHeight: 400 }}>
+        <View style={{ width: '100%', justifyContent: 'center', minHeight: 650 }}>
           <Image
-            // source={} resizeMode='contain' width={''} height={''}
+          source={require('../assets/images/test.png')}
+          style={{ width: 100, height: 100, alignSelf: 'center' }}
           />
           <View>
             <Text style={{ color: 'white', fontSize: 30, fontFamily: 'sans-serif-medium', 

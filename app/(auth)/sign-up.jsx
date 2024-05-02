@@ -21,9 +21,10 @@ const SignUp = () => {
   return (
     <SafeAreaView style={{flex: 1, backgroundColor: '#202020', alignItems: 'center', justifyContent: 'center'}}>
       <ScrollView>
-        <View style={{ width: '100%', justifyContent: 'center', minHeight: 500, padding: 10 }}>
+        <View style={{ width: '100%', justifyContent: 'center', minHeight: 650, padding: 10 }}>
         <Image
-            // source={} resizeMode='contain' width={''} height={''}
+          source={require('../../assets/images/test.png')}
+          style={{ width: 100, height: 100, alignSelf: 'center' }}
         />
         <Text style={{ color: 'white', marginTop: 20, fontSize: 20, textAlign: 'center', fontFamily: 'serif',
                       paddingRight: 10, paddingLeft: 10, paddingBottom: 10 }}>
@@ -47,7 +48,7 @@ const SignUp = () => {
           handleChangeText={(e) => setForm({ ...form, password: e})}
           style= {{ marginTop: 7 }}
         />
-        <View style={{ paddingTop: 50 }}>
+        <View style={{ paddingTop: 30 }}>
           <CustomButton
             title="Sign Up"
             handlePress={submit}
