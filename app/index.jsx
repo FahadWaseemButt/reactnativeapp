@@ -16,7 +16,7 @@ export default function App() {
           <View>
             <Text style={{ color: 'white', fontSize: 30, fontFamily: 'sans-serif-medium', 
                           fontWeight: 'bold', marginTop: 20, textAlign: 'center' }}>
-              TestApp!
+              TestApp
             </Text>
           </View>
           <Text style={{ color: 'white', marginTop: 20, fontSize: 20, textAlign: 'center', fontFamily: 'serif',
